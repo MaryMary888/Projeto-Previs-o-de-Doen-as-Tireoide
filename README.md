@@ -4,7 +4,7 @@
 pública, pois afetam diretamente o corpo humano e podem trazer graves
 consequências, como alterações neurológicas, metabólicas, reprodutivas e 
 até mesmo risco de câncer. A detecção precoce dessas alterações hormonais 
-é fundamental para evitar complicações e garantir que o tratamento, seja 
+é fundamental para evitar complicações e garantir que o tratamento seja 
 iniciado de forma mais eficaz, com melhores resultados clínicos.</p>
 
 <p>O objetivo deste projeto foi desenvolver uma ferramenta de apoio à 
@@ -635,7 +635,7 @@ manter a avaliação justa e representativa entre classes e melhorar assim
 a confiabilidade da validação cruzada ao usar <b><em>RandomizedSearchCV</em></b>. 
 A melhor quantidade encontrada no decorrer dos testes foram 7 partições.</p>
 
-### Feature Engineering
+### Otimização de Hiperparâmetros
 <p>Os hiperparâmetros mais relevantes foram selecionados para 
 auxiliar na melhoria dos modelos em questão. Cada um especificado 
 abaixo para seus respectivos modelos:</p>
