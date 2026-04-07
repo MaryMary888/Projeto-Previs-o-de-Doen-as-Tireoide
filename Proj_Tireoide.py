@@ -540,12 +540,3 @@ y_pred_final_svc, thr_usado_svc = escolher_threshold(best_svc, x_teste_pca, y_te
 # Realiza os relatórios finais para XGBoost e SVC
 relatorio_threshold(y_teste, y_pred_final_xgb, best_xgb, x_teste_pca,model = 'XGBoost Final',thresh = thr_usado_xgb)
 relatorio_threshold(y_teste, y_pred_final_svc, best_svc, x_teste_pca, model = 'SVC Final', thresh = thr_usado_svc)
-
-"""
-print(df[(df['TT4'] >= 100) & (df['TT4'] <= 220)].head(50).to_string())
-# dados t3 não condizem com valores clínicos reais, sem valores entre o intervalo de níveis normais
-# dados tt4 possui pouquissimos dados normais dentro dos valores clínicos reais, valores acima do normal geralmente indicam doenças da tireoide
-# dados t4u indica que os padrões normais dentro dos valores clinicos rais são pessoas com problemas na tireoide
-# poucos dados fti indicam dentro dos valores clinicos normais reais e considerados como não portadores de doenças da tireoide, contudo existem muitos valores abaixo do valor mínimo, que não são 0 pois não fizeram exame, indicando que esses paciêntes não possuiam essas doenças, já os com valores acima do padrão clinico, são considerados pessoas com a doença, geralmente com fti acima de 70
-# assumirei que mesmo se tratando de um problema real os dados também são ficticios pois nenhum dos resultados de exame estão de acordo com os níveis reais
-"""
